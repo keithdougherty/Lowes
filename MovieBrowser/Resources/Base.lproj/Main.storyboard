@@ -40,7 +40,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydp-6h-srt">
-                                <rect key="frame" x="352" y="88" width="62" height="51"/>
+                                <rect key="frame" x="331" y="88" width="83" height="51"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                 <state key="normal" title="Button"/>
@@ -50,7 +50,7 @@
                                 </connections>
                             </button>
                             <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="vcj-vQ-ksS">
-                                <rect key="frame" x="0.0" y="88" width="352" height="51"/>
+                                <rect key="frame" x="0.0" y="88" width="331" height="51"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="tintColor" red="0.3058823645" green="0.58039218189999997" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -122,7 +122,7 @@
                             <constraint firstItem="ydp-6h-srt" firstAttribute="trailing" secondItem="jxa-ja-6az" secondAttribute="trailing" id="01I-CO-LNR"/>
                             <constraint firstItem="ydp-6h-srt" firstAttribute="leading" secondItem="vcj-vQ-ksS" secondAttribute="trailing" id="0oi-x5-O2c"/>
                             <constraint firstItem="vcj-vQ-ksS" firstAttribute="top" secondItem="jxa-ja-6az" secondAttribute="top" id="66w-jO-uEu"/>
-                            <constraint firstItem="ydp-6h-srt" firstAttribute="width" secondItem="ydV-ei-dfc" secondAttribute="width" multiplier="0.15" id="7s6-No-TcG"/>
+                            <constraint firstItem="ydp-6h-srt" firstAttribute="width" secondItem="ydV-ei-dfc" secondAttribute="width" multiplier="0.2" id="7s6-No-TcG"/>
                             <constraint firstItem="HMb-b0-9be" firstAttribute="trailing" secondItem="jxa-ja-6az" secondAttribute="trailing" id="Bi9-cX-sXu"/>
                             <constraint firstItem="ydp-6h-srt" firstAttribute="leading" secondItem="vcj-vQ-ksS" secondAttribute="trailing" id="Cvi-Dm-SVU"/>
                             <constraint firstItem="Je9-JY-DWS" firstAttribute="top" secondItem="ydp-6h-srt" secondAttribute="bottom" id="FTe-cl-AJv"/>
